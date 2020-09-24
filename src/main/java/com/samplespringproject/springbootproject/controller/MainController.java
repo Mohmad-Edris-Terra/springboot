@@ -14,7 +14,8 @@ public class MainController {
 		return "This is home page";
 //		return "home";
 	}
-	
+//	logging.level.org.springframework=TRACE in application.properties
+//	logging.level.com=TRACE
 	@RequestMapping("/contact")
 	public String contact() {
 		System.out.println("this is contact page");
