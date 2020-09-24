@@ -17,6 +17,7 @@ public class MainController {
 //	logging.level.org.springframework=TRACE in application.properties
 //	logging.level.com=TRACE
 	@RequestMapping("/contact")
+	@ResponseBody
 	public String contact() {
 		System.out.println("this is contact page");
 		return "this is contact page";
