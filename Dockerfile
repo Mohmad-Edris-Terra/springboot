@@ -1,4 +1,4 @@
 FROM java:8 
 EXPOSE 8080
-ADD /target/springbootproject-0.0.1-SNAPSHOT.jar springbootproject-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java", "-jar", "springbootproject-0.0.1-SNAPSHOT.jar"]
+ADD target/docker-jenkins-integration.jar docker-jenkins-integration.jar
+ENTRYPOINT ["java", "-jar", "/docker-jenkins-integration.jar"]
