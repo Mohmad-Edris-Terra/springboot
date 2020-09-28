@@ -20,7 +20,7 @@ public class MainController {
 	@ResponseBody
 	public String contact() {
 		System.out.println("this is contact page");
-		return "This is contact page";
+		return "This is my new contact page";
 //		return "contact";
 	}
 }
