@@ -23,4 +23,9 @@ public class MainController {
 		return "This is my new contact page";
 //		return "contact";
 	}
+
+	@ResponseBody
+	public String display() {
+		return "Hello There!!"
+	}
 }
