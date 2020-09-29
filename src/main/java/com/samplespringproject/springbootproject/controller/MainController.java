@@ -26,6 +26,6 @@ public class MainController {
 
 	@ResponseBody
 	public String display() {
-		return "Hello There!!"
+		return "Hello There!!";
 	}
 }
