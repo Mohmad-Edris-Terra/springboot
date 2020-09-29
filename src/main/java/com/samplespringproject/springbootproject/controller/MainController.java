@@ -10,7 +10,7 @@ public class MainController {
 	@RequestMapping("/")
 	@ResponseBody
 	public String home() {
-		System.out.println("this is home page");
+		System.out.println("This is home page");
 		return "This is home page";
 //		return "home";
 	}
@@ -19,7 +19,7 @@ public class MainController {
 	@RequestMapping("/contact")
 	@ResponseBody
 	public String contact() {
-		System.out.println("this is contact page");
+		System.out.println("This is contact page");
 		return "This is my new contact page";
 //		return "contact";
 	}
